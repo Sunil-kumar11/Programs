@@ -31,7 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ProgramsPractice.Program</StartupObject>
+    <StartupObject>ProgramsPractic.SWapString</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,10 @@
   <ItemGroup>
     <Compile Include="a\add.cs" />
     <Compile Include="Calculator.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="a\Person.cs" />
+    <Compile Include="Factorial.cs" />
+    <Compile Include="Fibonacci.cs" />
+    <Compile Include="Palindrome.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="PrimeNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

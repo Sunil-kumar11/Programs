@@ -23,6 +23,22 @@ namespace ProgramsPractic
 
             Console.WriteLine("swap str1 :" + str1 + "  swap str2 : " + str2);
 
+            Console.WriteLine("enter a num1");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("enter a num2");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("num1 : {0} num2 :{1}", num1, num2);
+            num1 = num2-num1;
+            num2 = num2-num1;
+            num1 = num1 + num2;
+            Console.WriteLine("num1 : {0} num2 :{1}", num1, num2);
+            num1 = num1 * num2;
+            num2 = num1 / num2;
+            num1 = num1 / num2;
+            Console.WriteLine("num1 : {0} num2 :{1}", num1, num2);
+
         }
     }
 }

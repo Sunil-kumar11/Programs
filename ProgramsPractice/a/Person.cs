@@ -14,7 +14,7 @@ namespace ProgramsPractice.a
 
         public void Introduce()
         {
-            Console.WriteLine("My name " + FirstName + " " + LastName);
+            Console.WriteLine("My Name is  " + FirstName + " " + LastName);
         }
     }
 }
